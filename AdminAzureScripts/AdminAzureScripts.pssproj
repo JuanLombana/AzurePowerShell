@@ -28,6 +28,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CreateVM.ps1" />
+    <Compile Include="NSG.ps1" />
     <Compile Include="VNet1.ps1" />
   </ItemGroup>
   <ItemGroup>
