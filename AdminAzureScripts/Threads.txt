@@ -1,0 +1,37 @@
+--VM.
+OK 1. Create VM.
+OK 2. Change the size of existing vm.
+OK 3. Add vm to a existing vnet.
+OK 4. Add (new) and attch (existing) disk to a VM.
+OK 5. Add NIC to a VM. 
+***6. DSC
+OK 7. Reserved IP (PIP)
+*8. ACL Rules
+OK 9. Public IP
+***10. HTTP and TCP Health probes
+***11. Monitoring,alerts, diagnostics.
+* 12. Reserved IP (VIP).
+
+--VNET
+OK. 1. Create VNET
+OK. 2. Add Subenets and modify address space.
+* 3. VPN Point to Site.
+* 4. Import-exporte network configuration
+* 5. NSG
+***6. DNS
+**7. Traffic Route
+
+--WebSites
+* 1. Manage Web apps PS, Xplat-CLI
+*2. Autoscale, metric, schedules, size.
+3. Web Jobs
+
+--Storage
+**1. Blobs
+**2. Tables
+***3. SAS
+* 4. SQL Azure Firewall
+
+--Service Bus
+**1. Monitoring
+
