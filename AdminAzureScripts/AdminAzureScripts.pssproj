@@ -27,12 +27,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CreateVM.ps1" />
-    <Compile Include="NSG.ps1" />
-    <Compile Include="VNet1.ps1" />
+    <Compile Include="1.VM\VMConfig.ps1" />
+    <Compile Include="2.VNET\NetworkSecurityGroup.ps1" />
+    <Compile Include="2.VNET\RouteTables-IPForwarding.ps1" />
+    <Compile Include="2.VNET\Subnetting.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Threads.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2.VNET\" />
+    <Folder Include="1.VM\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

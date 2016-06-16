@@ -10,16 +10,17 @@ OK 7. Reserved IP (PIP)
 OK 9. Public IP
 ***10. HTTP and TCP Health probes
 ***11. Monitoring,alerts, diagnostics.
-* 12. Reserved IP (VIP).
+OK 12. Reserved IP (VIP).
 
 --VNET
-OK. 1. Create VNET
-OK. 2. Add Subenets and modify address space.
+OK 1. Create VNET
+OK 2. Add Subenets and modify address space.
 * 3. VPN Point to Site.
 * 4. Import-exporte network configuration
-* 5. NSG
+OK 5. NSG
 ***6. DNS
 **7. Traffic Route
+OK 8. Routing Tables
 
 --WebSites
 * 1. Manage Web apps PS, Xplat-CLI
