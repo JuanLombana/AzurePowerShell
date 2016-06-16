@@ -31,6 +31,9 @@
     <Compile Include="2.VNET\NetworkSecurityGroup.ps1" />
     <Compile Include="2.VNET\RouteTables-IPForwarding.ps1" />
     <Compile Include="2.VNET\Subnetting.ps1" />
+    <Compile Include="3.WebApps\ServicePlan.ps1" />
+    <Compile Include="5.Storage\BasicStorage.ps1" />
+    <Compile Include="5.Storage\SqlAzure.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Threads.txt" />
@@ -38,6 +41,9 @@
   <ItemGroup>
     <Folder Include="2.VNET\" />
     <Folder Include="1.VM\" />
+    <Folder Include="3.WebApps\" />
+    <Folder Include="4.ServiceBus\" />
+    <Folder Include="5.Storage\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

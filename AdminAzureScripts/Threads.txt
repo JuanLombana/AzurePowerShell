@@ -23,15 +23,15 @@ OK 5. NSG
 OK 8. Routing Tables
 
 --WebSites
-* 1. Manage Web apps PS, Xplat-CLI
-*2. Autoscale, metric, schedules, size.
+OK 1. Manage Web apps PS, Xplat-CLI
+* 2. Autoscale, metric, schedules, size.
 3. Web Jobs
 
 --Storage
 **1. Blobs
 **2. Tables
 ***3. SAS
-* 4. SQL Azure Firewall
+OK 4. SQL Azure (Server, DB, Firewall)
 
 --Service Bus
 **1. Monitoring
